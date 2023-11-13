@@ -1,0 +1,74 @@
+.adsense_responsive {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 320px!important;
+    height: 50px!important;
+    margin-left: 0px;
+    /*outline: 1px solid black;*/
+}
+.adsense_responsive iframe {
+    /*outline: 1px solid red;*/
+}
+.nav-group {
+    top: 50px;
+}
+@media screen and (min-width: 375px) {
+    .adsense_responsive {
+        right: 0;
+        top: 0;
+        left: auto;
+        width: 375px!important;
+        height: 50px!important;
+    }
+}
+@media screen and (min-width: 414px) {
+    .adsense_responsive {
+        /* right: 0; */
+        /* top: 0; */
+        /* left: auto; */
+        width: 414px!important;
+        /* height: 60px!important; */
+    }
+}
+@media screen and (min-width: 768px) {
+    .adsense_responsive {
+        top: auto;
+        right: auto;
+        left: 50%;
+        bottom: 0.75em;
+        width: 468px!important;
+        height: 60px!important;
+        margin-left: -250px!important;
+    }
+    .nav-group {
+        top: 0.75em;
+    }
+}
+@media screen and (min-width: 1317px) {
+    .adsense_responsive {
+        width: 120px!important;
+        height: 600px!important;
+        left: 2em;
+        top: 70px;
+        bottom: auto;
+        margin-left: 0!important;
+    }
+}
+@media screen and (max-width: 767px) {
+    .nearby {
+        left: 1.75em;
+        right: auto;
+        top: auto;
+        bottom: 0.75em;
+    }
+}
+@media screen and (max-width: 413px) {
+    .nearby {
+        top: 50px;
+        font-size: 0.75em;
+        bottom: auto;
+        right: 1em;
+        left: auto;
+    }
+  }
