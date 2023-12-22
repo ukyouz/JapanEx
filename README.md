@@ -40,5 +40,5 @@ Fixed the name and area bug for some counties.
 
 ## Other Countries Versions
 
-1. [Taiwan](https://travel.tonypai.com.tw/)
+1. [Taiwan](https://zhung.com.tw/taiwanex)
 2. [Hong Kong](http://www.thelittleprince.hk/hongkong/)
