@@ -342,7 +342,7 @@ function setForm(elem) {
 		top: top,
 		left: left,
 	}).find('.title .lang').html(title);
-	$form.find('.title .search').attr({'href': 'https://google.com/#q='+q, 'title': q_search+q});
+	$form.find('.title .search').attr({'href': 'https://google.com/search?q='+q, 'title': q_search+q});
 	// console.log(elem);
 	if($(elem).attr('level'))
 		$form.find('.label.'+getColor($(elem).attr('level'))).addClass('selected');
